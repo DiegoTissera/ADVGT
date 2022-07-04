@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+main {
+    background-image: url(./imagenes/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*encabezado*/
+.header {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 30px 20px;
+    border-style:solid;
+    border-color: #0f172a;
+    border-width: 1px;
+    max-height: 100px;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+}
+.content__isologo { 
+    display: flex;
+}
+.content__title {
+    color: #e2e8f0;
+}
+
+.content__logo img{
+    height: 20%;
+}
+.content__navbar {
+    display: flex;
+}
+.content__navbar li{
+    margin: 0 15px;
+}
+.content__navbar li a {
+    color: #e2e8f0;
+    font-weight: bold;
+}
+/* main*/
+    /* index*/
+.resultados{
+    background-color: white;
+    padding: 20px;
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1.5);
+    margin: 0 auto;
+}
+.resultados__header img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+    /* institucional*/
+.informacion{
+    background-color: white;
+    padding: 20px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1.5);
+    margin: 0 auto;
+}
+    /* campeonato*/
+.tabla{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1.5);
+    margin: 0 auto;
+}
+.torneo__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+    /* contacto*/
+.contacto { 
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #e2e8f0;
+    height: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1.5);
+}
+.contacto h2 {
+    
+}
+/* pie de pagina*/
+.footer {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 30px 20px;
+    border-style:none;
+}
+.footer__content {
+    background-color: #e2e8f0;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+.content__mapa {
+    position: relative;
+}
+.content__mapa iframe {
+ height: 250px;
+ width: 800px;
+}
+.content__contacto {
+    position: relative;
+
+}
+.content__contacto li{
+    color:#0f172a;
+}
+.content__redes{
+    position: relative;
+}
+.content__redes img {
+    width: 50px;
+    height: 50px;
+}
+.contacto__title{
+    color: #0f172a;
+}
+.footer__grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    gap: 50px;
+}
