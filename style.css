@@ -26,39 +26,6 @@ main {
 }
 
 /*encabezado*/
-
-    /*.header {
-        background-color: #0f172a;
-        color: #e2e8f0;
-        padding: 30px 20px;
-        border-style:solid;
-        border-color: #0f172a;
-        border-width: 1px;
-        max-height: 100px;
-    }
-    .header__content {
-        display: flex;
-        justify-content: space-between;
-    }
-    .content__isologo { 
-        display: flex;
-    }
-    .content__title {
-        color: #e2e8f0;
-    }
-    .content__logo img{
-        height: 20%;
-    }
-    .content__navbar {
-        display: flex;
-    }
-    .content__navbar li{
-        margin: 0 15px;
-    }
-    .content__navbar li a {
-        color: #e2e8f0;
-        font-weight: bold;
-    } */
     .navbar-brand img{
         height: 60px;
       }
@@ -69,6 +36,7 @@ main {
   
 /*main*/
     /*index*/
+
 .resultados{
     background-color: white;
     padding: 20px;
@@ -82,6 +50,14 @@ main {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.effect__redes {
+    transition: box-shadow 1.5s;
+  }
+  
+.effect__redes:hover {
+    box-shadow: 0 25px 50px 0px rgba(0, 0, 0, 0.541);
+  }
+
     /* institucional*/
 .informacion{
     background-color: white;
@@ -123,50 +99,6 @@ main {
     background-color: #0f172a;
     color: #e2e8f0;
 }
-.footer__content {
-    background-color: #e2e8f0;
-    width: 100%;
-    justify-items: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 30px 20px;
-}
-.content__mapa {
-    position: relative;
-}
-.content__mapa iframe {
- height: 250px;
- width: 800px;
-}
-.content__contacto {
-    position: relative;
-
-}
-.content__contacto li{
-    color:#0f172a;
-}
-.content__redes{
-    position: relative;
-}
-.content__redes img {
-    width: 50px;
-    height: 50px;
-}
-.contacto__title{
-    color: #0f172a;
-}
-.footer__grid {
-    display: grid;
-    grid-template-columns: 4fr 1fr 1fr;
-    gap: 50px;
-}
-.effect__redes {
-    transition: box-shadow 1.5s;
-  }
-  
-.effect__redes:hover {
-    box-shadow: 0 25px 50px 0px rgba(0, 0, 0, 0.541);
-  }
 
 /*responsive*/
 
