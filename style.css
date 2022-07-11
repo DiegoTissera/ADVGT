@@ -45,6 +45,9 @@ main {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1.5);
     margin: 0 auto;
 }
+.carousel-item img {
+    max-height: 900px;
+}
 .resultados__header img{
     width: 100%;
     border-radius: 10px;
@@ -68,6 +71,13 @@ main {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1.5);
     margin: 0 auto;
 }
+.effect {
+    transition: box-shadow 0.3s;
+  }
+  
+  .effect:hover {
+    box-shadow: 0 25px 50px -12px rgb(0, 0, 0, 0.4);
+  }
     /* campeonato*/
 .tabla{
     background-color: white;
