@@ -1,0 +1,22 @@
+{
+  "name": "asociacion-de-futbol--tissera",
+  "version": "1.0.0",
+  "description": "\"proyecto practico final\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoTissera/ADVGT.git"
+  },
+  "author": "Diego Tissera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoTissera/ADVGT/issues"
+  },
+  "homepage": "https://github.com/DiegoTissera/ADVGT#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
