@@ -1,4 +1,8 @@
 .footer {
     background-color: #0f172a;
     color: #e2e8f0;
+&__iframe{
+    max-width: 90%;
+    height: auto;
+}
 }

@@ -1,8 +1,9 @@
 
-.navbar-brand img{
-    height: 60px;
-  }
-  .navbar {
+
+.navbar {
     background-color:#0f172a;
     color: e2e8f0;
-  }
+  &-brand img{
+        height: 60px;
+      }
+    }

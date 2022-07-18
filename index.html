@@ -17,40 +17,40 @@
 </head>
 <body>
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-md navbar-dark">
-          <div class="container">
-            <a class="navbar-brand" href="#"><img src="./imagenes/escudo-advgt.png" alt=""> ADVGT</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto fw-bold">
-                <li class="nav-item">
-                  <a class="nav-link" href="./index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./institucional.html">Institucional</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./campeonato.html">Campeonato</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-              </ul>
+          <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="./imagenes/escudo-advgt.png" alt=""> ADVGT</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./institucional.html">Institucional</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./campeonato.html">Campeonato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
-      </header>
-    <main class="">
+          </nav>
+    </header>
+    <main>
         <section class="container container-fluid">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -75,12 +75,18 @@
             </div>
         </section>
         <section>
-            <article class="resultados Container-fluid">
-                <h3 class="resultados__title">Resultados De la Ultima Fecha</h3>
-                <div class="resultados__header">
-                    <img src="./imagenes/Senior.png" alt="senior">
-                    <img src="./imagenes/Maxi-senior.png" alt="maxisenior">
+            <article class="resultados conteiner-fluid">
+              <div class="resultados__header row">
+                <h3>Resultados De la Ultima Fecha</h3>
+                <div class="col-sm-12 col-md-12 col-xl-6">
+                   <h4>Senior</h4>
+                  <img src="./imagenes/Senior.png" class="img-fluid" alt="senior">
                 </div>
+                <div class="col-sm-12 col-md-12 col-xl-6">
+                  <h4>Maxi-Senior</h4>
+                  <img src="./imagenes/Maxi-senior.png" class="img-fluid" alt="maxisenior">
+                </div>
+              </div>
             </article>
         </section>
     </main>
@@ -88,19 +94,19 @@
         <div class="container">
           <div class="row">
             <!-- text-sm-center text-md-start -->
-            <div class="col-sm-12 col-md-4 p-4">
+            <div class="col-sm-12 col-md-5 p-4 footer__iframe">
               <h6>Direccion</h6>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.4131753786464!2d-64.18943318485026!3d-31.485325081381262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a370e464f551%3A0x577674f90a82c892!2sAv.%20Cdad.%20de%20Valpara%C3%ADso%206000%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1655157051002!5m2!1ses-419!2sar"></iframe>
             </ul>
            </div>
-            <div class="col-sm-12 col-md-4 p-4">
+            <div class="col-sm-12 col-md-3 p-4">
               <ul class="list-unstyled">
                 <!-- text-decoration-none -->
                 <li><a href="" class="text-white">Direccion: Av Cd de Valparaíso 6000, CORDOBA</a></li>
                 <li><a href="" class="text-white">Correo: webmaster@advgt.com.ar</a></li>
               </ul>
             </div>
-            <div class="col-sm-12 col-md-4 p-4">
+            <div class="col-sm-12 col-md-3 p-4">
               <h6>Redes</h6>
               <div class="d-flex justify-content-evenly">
                 <a href="" class="text-white fs-2 text-decoration-none">
