@@ -5,15 +5,16 @@
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1.5);
     margin: 0 auto;
 
- &__header{text-align: center;
+ &__header{
+    text-align: center;
+}
 
- &img{
-    
+ img{ 
     position: relative;
     border-radius: 10px;
     margin-bottom: 20px;}
 }   
-}
+
 
 .carousel-item img {
     max-width: auto;
@@ -21,13 +22,13 @@
 }
 .effect__redes {
     transition: box-shadow 1.5s;
-  }
   
-.effect__redes:hover {
+:hover {
     box-shadow: 0 25px 50px 0px rgba(0, 0, 0, 0.541);
   }
+}
 /*--intitucional --*/
-.boton {
+@mixin boton {
     background-color: #4CAF50; /* Green */
     border-radius: 8px;
     border: none;
@@ -39,10 +40,19 @@
     transition: box-shadow 1.5s;
     display: inline-block;
     margin: 4px 2px;
-    cursor: pointer;    
+    cursor: pointer;
 }
-.boton:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+.boton {
+    @include boton();
+
+:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+}
 /*--contacto --*/
+@mixin formulario {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
 form {
     background-color: #fff;
     width: 90%;
@@ -52,16 +62,12 @@ form {
     border-radius: 10px;
     box-shadow: 0 5px 10px -spx rgba(0, 0, 0, 0.541);
 input{
-    width: 100%;
-    padding: 12px 20px;
+    @include formulario ();
     margin: 8px 0;
-    box-sizing: border-box;
 }
 textarea {
-    width: 100%;
+    @include formulario();
     height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
