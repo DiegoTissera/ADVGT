@@ -68,6 +68,17 @@ main {
   .boton :hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
 
+/*--campeonato--*/
+.tabla {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px black;
+  margin: 0 auto;
+  max-width: 1000px; }
+  .tabla__title {
+    text-align: center; }
+
 /*--contacto --*/
 form {
   background-color: #fff;
